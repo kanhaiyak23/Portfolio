@@ -31,10 +31,10 @@ const imageAltText = "a table where a cup of tea is kept";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "OLX Clone 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed an OLX clone offering a responsive platform for users to buy and sell products seamlessly",
+    url: "https://olx-buy-and-sell.vercel.app/",
   },
   {
     title: "Web Development for Beginners",
@@ -43,16 +43,16 @@ const projectList = [
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Planet Fact Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed an informational site providing comprehensive data on the planets of the solar system.",
+    url: "https://kanhaiyak23.github.io/Planet-Fact-Site/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "MakeMy Trip Clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Designed and implemented a responsive and user-friendly interface using HTML,TailWind CSS, JavaScript and React.",
+    url: "https://endsem-project-make-my-trip-bg7zfeygj-kanhaiyak23s-projects.vercel.app",
   },
 ];
 
