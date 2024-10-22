@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-html, body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -116,6 +120,59 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.scroll-arrow {
+  height: 3rem;
+  width: 3rem;
+  animation: bounce 2s infinite;
+  position: absolute;
+  bottom: 35rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translate(-50%);
+  }
+
+  50% {
+    transform: translate(-50%, -20px);
+  }
+}
+
+.education-section {
+  padding: 2rem;
+}
+
+.education-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  display: grid;
+}
+
+.education-cell {
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform .3s;
+}
+
+.education-cell:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
