@@ -35,6 +35,19 @@ const Home = ({ name, title }) => {
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
+      <div>
+      <div className="scroll-arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="3rem"
+            viewBox="0 0 24 24"
+            width="3rem"
+            fill="currentColor"
+          >
+            <path d="M12 21l-8-8h16z" />
+          </svg>
+        </div>
+      </div>
     </section>
   );
 };

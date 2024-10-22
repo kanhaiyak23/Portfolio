@@ -1,0 +1,25 @@
+/* Education.css */
+
+.education-section {
+    padding: 2rem;
+  }
+  
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Grid of 4 columns */
+    gap: 1.5rem; /* Space between cells */
+  }
+  
+  .education-cell {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .education-cell:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
